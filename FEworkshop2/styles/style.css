@@ -4,6 +4,7 @@ body {
 
 .main {
     margin: 50px 0 0 50px;
+    font-family: Roboto;
 }
 
 .title {
@@ -11,25 +12,23 @@ body {
     margin: 0;
     padding: 10px 35px;
     background-color: #e8c734;
-    font-family: Roboto;
     font-size: 23px;
     color: #1a1a1a;
 }
 
-.ul{
+.skill-list{
     margin-top: 20px;
     margin-left: 0px;
     padding-left: 0px;
 }
 
-.ul:first-child{
+.skill-list:first-child{
     margin-top: 0;
 }
 
 .skill{
     margin: 0;
     list-style: none;
-    font-family: Roboto;
     text-decoration: none;
     padding: 0 0 20px 0;
 }
@@ -44,30 +43,17 @@ body {
     height: 15px;
     width: 300px;
     position: relative;
-}
-
-.ul__p-short{
-    position: relative;
-}
-
-.ul__p-short:after{
-    content: "";
     color: #1a1a1a;
-    position: absolute;
+}
+
+.skill__item:after{
     background: #bfc0c1;
+    content: "";
+    position: absolute;
     height: 15px;
     width: 200px;
 }
 
-.ul__p-long{
-    position: relative;
-}
-
 .ul__p-long:after{
-    content: "";
-    color: #1a1a1a;
-    position: absolute;
-    background: #bfc0c1;
-    height: 15px;
     width: 250px;
 }
