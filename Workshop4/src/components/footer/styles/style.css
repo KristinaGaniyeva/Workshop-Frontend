@@ -1,0 +1,16 @@
+.footer {
+    height: 70px;
+    background-color: #efefef;
+    padding: 60px 0 0 0;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.footer__text {
+    padding-left: 200px;
+}
+
+.footer-span{
+    padding-left: 20px;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "base-practice-front-end",
+  "version": "1.0.0",
+  "description": "description",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KristinaGaniyeva/Base-practice-Front-end.git"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "Kristina Ganiyeva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KristinaGaniyeva/Base-practice-Front-end/issues"
+  },
+  "homepage": "https://github.com/KristinaGaniyeva/Base-practice-Front-end#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  }
+}

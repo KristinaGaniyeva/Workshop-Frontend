@@ -1,2 +1,8 @@
+# dependencies
+/node_modules
 .idea/
-.DS_Store
+.idea/vcs.xml
+
+# production
+build/
+
